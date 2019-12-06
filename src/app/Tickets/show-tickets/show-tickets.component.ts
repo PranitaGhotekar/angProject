@@ -43,7 +43,7 @@ export class ShowTicketsComponent implements OnInit {
   //       (res) => {
   //         this.ticketsData = res;
   //         this.finalTickets();
-  // debugger;
+  //  
   //       },
   //       (error) => {
   //         console.log(error);

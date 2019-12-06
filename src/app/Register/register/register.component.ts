@@ -32,7 +32,7 @@ this.profiles = this.getProfile();
       console.log("input data:",newData);
 
       let profileFor: string;
-     debugger;
+      
       if(newData.profiles == 0){
         profileFor = 'manager';
       }else 

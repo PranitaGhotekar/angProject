@@ -54,7 +54,7 @@ export class LoginComponent implements OnInit {
       (res) => {
         this.userData = res;
         this.finalLogin();
-debugger;
+ 
       },
       (error) => {
         console.log(error);
@@ -93,11 +93,11 @@ debugger;
     let myUser =
       this.userData.find(user => (user.userName === this.formData.userName) &&
         (user.password === this.formData.password) && (user.profiles === this.formData.profile));
-debugger;
+ 
     if (myUser) {
       localStorage.setItem("isUserLogin", "true");
       alert('Ok');
-      debugger;
+       
       if(this.formData.profile == 0){
         this.router.navigate(['/manager']);
       }else
