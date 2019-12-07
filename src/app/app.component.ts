@@ -17,9 +17,7 @@ export class AppComponent {
   }
 
   getUserLogin(){
-    debugger;
     this.isUserLogin = this._ServiceApiService.isUserLoggedInData();
-    debugger;
   }
 
   logOut(){
